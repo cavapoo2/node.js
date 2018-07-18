@@ -1,0 +1,13 @@
+// process.json
+{
+"apps" : [{
+	"name" : "server",
+	"script" : "./server.js",
+	"watch" : true,
+	"env": {
+		"NODE_ENV": "development"
+		},
+	"instances" : 4,
+	"exec_mode" : "cluster"
+	}]
+}
